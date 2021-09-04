@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            My Site!
-        </title>
-    </head>
-    <body>
-        <h1>This is my GitHub Pages website!</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aray Aguiar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/index.html" id="navbar__logo">
+                <i class="fas fa-lightbulb"></i>Aray Aguiar<i class="fas fa-gamepad"></i>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/beats.html" class="navbar__links">Beats</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Gaming</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Aray</h1>
+                <h2>Aguiar</h2>
+                <p>Welcome to my website!</p>
+                <button class="main__btn">
+                    <a href="#service">Get started</a>
+                </button>
+            </div>
+            <div class="main__img--container">
+            <img src="images/pic1.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+
+    <div class="services" id="service">
+        <h1>There is no wrong in art!</h1>
+        <div class="services__container">
+            <div class="services__card">
+               <h2>Who am I?</h2> 
+               <p>I am Aray Aguiar, born in Angola (Luanda), graduated in Electronic Engineeringing in UK, music producer and part-time gamer. Natural leader and passionate about the things I do. Helping has always been my moto, because I believe we are like a forest, if a tree grows other flowers will florish</p>
+               <button>Download my CV</button>
+            </div>
+
+            <div class="services__card">
+                <h2>Wanna hear my work?</h2> 
+                <p>I produce songs of different genres, such as Hip-Hop/Rap, R&B, House, and also create Lo-fi for youtube background musics.</p>
+                <button>Listen now</button>
+             </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <script src="app.js"></script>
+</body>
 </html>
