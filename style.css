@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
+    text-decoration: none;
     
 }
 
@@ -103,7 +104,6 @@
 .button:hover {
     transition: all 0.5s ease;
     opacity: 1;
-    color: chocolate;
 }
 
 .navbar__links:hover {
@@ -425,6 +425,8 @@
     width: 400px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, black 0%, rgba(17,17,17,0.6) 100%), url('/images/pic2.jpg');
+    background-size: cover;
+    position: relative;
 }
 
 .services h2 {
@@ -450,7 +452,18 @@
     top: 440px;
     left: 30px;
     font-size: 1rem;
-    cursor: pointer;
+    opacity: .7;
+}
+
+/* keep the button with links the same color instead of changing and underlining */
+.services__card button a {
+    color: white;
+    text-decoration: none;
+}
+
+.services__card button:hover {
+    transition: all 0.5s ease;
+    opacity: 1;
 }
 
 .services__card:hover {
@@ -477,7 +490,7 @@
     }
 
     .services h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     } 
 
     .services__card {
