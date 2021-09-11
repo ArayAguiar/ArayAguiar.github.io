@@ -34,7 +34,7 @@
 
 #navbar__logo {
     background-color: black;
-    background-image: linear-gradient(to top, orange 0%, chocolate 100%);
+    background-image: linear-gradient(to top, white 0%, rgba(187, 187, 187, 0.289) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -256,7 +256,7 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-    color: chocolate;
+    color: white;
 }
 
 .main__btn {
@@ -269,7 +269,7 @@
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
-    transition: all 0.35s;
+    transition: all 0.2s;
     outline: none;
 }
 
@@ -406,6 +406,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.services__card--video {
+    margin: 1rem;
+    height: 525px;
+    width: auto;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, black 0%, rgba(17,17,17,0.6) 100%);
+    background-size: cover;
+    position: relative;
+    color: white;
 }
 
 .services__card {
